@@ -5,9 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Manpreet Kaur">
-        <meta name="description" content="Tracker">
+        <meta name="description" content="Track-me">
         <meta name="keywords" content="web developer, web, developer, front-end, html, css, javascript, react, sql">
-        <title>ShipScan</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"rel="stylesheet">
@@ -19,10 +18,136 @@
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
         <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css" type="text/css">
+        <title>NutriTrack</title>
     </head>
     <body>
+        <header>
+            <nav class="container">
+                <ul>
+                    <li class="logo">NutriTrack</li>
+                </ul>
+                <ul>
+                    <li>Services</li>
+                    <li>About us</li>
+                    <li>Get app</li>
+                </ul>
+                <ul>
+                    <li class="sign-up">Sign Up</li>
+                </ul>
+            </nav>
+        </header>
         <main>
-
+            <section class="landing-page">
+                <div class="landing-page-text container">
+                    <h1>
+                      <span class="ShipScan">NutriTrack</span><br>
+                      Track. Eat. Thrive
+                    </h1>
+                    <p>Fuel your journey to wellness with NutriTrack</p>
+                    <button type="button">Get Started</button>
+                </div>
+            </section>
+            <div class="container">
+                <section class=" family">
+                    <div class="team member"><img src="./assets/img/scooter rider 2.jpg" alt="rider" width="270px">
+                        <h1>Become a Nutar</h1>
+                        <p>As a delivery driver, you'll make reliable money working anytime</p>
+                    </div>
+                    <div class="team shop"><img src="./assets/img/shop.webp" alt="shop" width="211px">
+                        <h1>Become a Partner</h1>
+                        <p>Grow your business and reach new customers by partnering with us.</p>
+                    </div>
+                    <div class="team customer"><img src="./assets/img/mobile.jpg" alt="mobile" width="260px">
+                        <h1>Best experience</h1>
+                        <p>Get the best experience with live order tracking.</p>
+                    </div>
+                </section>
+                <section class="about-us">
+                    <div class="box-container">
+                        <div class="learn">
+                            <h2>Why NutriTrack</h2>
+                            <p>Enjoy uninterrupted delivery, unaffected by traffic delays</p>
+                            <button>Learn More</button>
+                        </div>
+                        <div class="flex-box">
+                            <div class="row-1">
+                                <div class="box-1">
+                                    <i class="fa-solid fa-truck-fast" style="color: #53a9f9;"></i>
+                                    <h3>Faster</h3>
+                                    <p>
+                                        Convenience stores at your doorstep Stock up on
+                                        snacks, household essentials, candy, or vitamins-
+                                        all delivered in under an hour.
+                                    </p>
+                                </div>
+                                <div class="box-2">
+                                    <i class="fa-solid fa-rotate-left" style="color: #f2bd4a;"></i>
+                                    <h3>Return</h3>
+                                    <p>
+                                        Return packages from home Request a package
+                                        pickup with just a few taps and get your returns
+                                        dropped off at carriers like UPS, FedEx, and USPS.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row-2">
+                                <div class="box-3">
+                                    <i class="fa-brands fa-shopify" style="color: #ff471a;"></i>
+                                    <h3>Access</h3>
+                                    <p>
+                                        Everything you crave, delivered.
+                                        Your favorite local restaurants
+                                    </p>
+                                </div>
+                                <div class="box-4">
+                                    <i class="fa-brands fa-pagelines" style="color: #76ea78;"></i>
+                                    <h3>Greener</h3>
+                                    <p>
+                                       Reduce your carbon footprint by utilizing our eco-conscious
+                                       drone delivery service, minimizing environmental impact 
+                                       during shipping
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contact-us">
+                    <div class=" contact">
+                        <h3>Let us safely transport your parcel to its intended location</h3>
+                        <button type="button">Contact Us</button>
+                    </div>
+                    <div class="delivery-emoji"></div>
+                </section>
+                <section class="track-box">
+                    <div class="map-bg">
+                        <div class="container">
+                            <div id="map" class="map">
+                                <div class="map-info">
+                                    <p>Click 'Track Me' 
+                                        <span><i class="fa-solid fa-arrow-down"></i></span>
+                                        to view your current location of your stuff
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="t-button">
+                                <button class=" track-button">Track Me</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
+        <footer>
+            <div class="footer-row-1">
+                <ul>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </ul>
+            </div>
+            <p>NutriTrack &copy; 2023. All rights reserved</p>
+        </footer>
     </body>
 </html>
