@@ -1,0 +1,27 @@
+{
+  "name": "track-me",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "author": "Manpreet Kaur",
+  "description": "My new awesome project",
+  "keywords": [
+    "web",
+    "Dev"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "packages": {
+    "": {
+      "name": "n",
+      "version": "1.0.0",
+      "license": "ISC"
+    }
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "start": "lite-server"
+  }
+}
