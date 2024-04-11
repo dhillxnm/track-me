@@ -461,7 +461,7 @@ footer i {
 }
 
 
-.footer-row-1 ul {
+.footer-links ul {
     display: flex;
     justify-content: center;
     gap: 28px;
